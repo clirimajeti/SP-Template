@@ -1,0 +1,15 @@
+<section id="page2" class="row">
+  <div class="p2">
+    <div style="height: 305px">
+      <div uib-carousel active="slide.active" interval="myInterval">
+        <div uib-slide ng-repeat="slide in slides track by $index" index="$index">
+            <img ng-src="{{slide.image}}" class="slideImage">
+            <div class="desc">
+              <h2>{{slide.title}}</h2>
+              <p>{{slide.description}}</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
