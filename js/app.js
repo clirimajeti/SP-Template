@@ -1,17 +1,20 @@
 var app = angular.module('app', ['ngRoute','ui.bootstrap','ngTouch','ngAnimate']);
 
+app.config(function ($locationProvider) {
+  $locationProvider.html5Mode(true);
+});
 
 app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/', {
-      templateUrl: 'https://clirimajeti.github.io/SP-Template/views/page1.html',
+      templateUrl: '/views/page1.html',
       controller: 'Ctrl'
     });
     $routeProvider.when('/1', {
-      templateUrl: 'https://clirimajeti.github.io/SP-Template/views/page2.html',
+      templateUrl: '/views/page2.html',
       controller: 'Ctrl'
     });
     $routeProvider.when('/2', {
-      templateUrl: 'https://clirimajeti.github.io/SP-Template/views/page3.html',
+      templateUrl: '/views/page3.html',
       controller: 'Ctrl'
     });
     $routeProvider.otherwise({redirectTo:'/'});
