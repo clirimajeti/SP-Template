@@ -18,8 +18,7 @@ a,a:active,a:focus,a:hover{text-decoration:none;color:#fff}
 }
 #page1{background-image:url(../img/office-865091.jpg);background-size:cover;background-repeat:no-repeat;padding-top:1%}
 #page2{background-image:url(../img/office-865091.jpg);background-size:cover;background-repeat:no-repeat}
-#page3{background-image:url(../img/backg1.png);background-size:cover;background-repeat:no-repeat}
-#page4{background-image:url(../img/office-865091.jpg);background-size:cover;background-repeat:no-repeat}
+#page3{background-image:url(../img/backg1.jpg);background-size:cover;background-repeat:no-repeat}
 section{padding-top:5%;padding-left:20%;padding-bottom:5%;display:table;width:100%;padding-right:5%;height:100%}
 .infoBox{background-color:rgba(0,0,0,.5);padding-left:5rem;padding-right:5rem;padding-bottom:5rem;padding-top:5rem;color:#fff}
 @media screen and (max-width:720px){
