@@ -55,4 +55,4 @@ label{color:#d3d3d3}
 .cf:after{clear:both}
 .cTitle{color:#fff;text-decoration:line-through!important;text-decoration-color:#0ff!important;text-decoration-style:solid!important}
 main.ng-enter{opacity:0;transform:translateX(-200px);transition:all 1s ease-in-out}
-main.ng-enter-active{transform:translateY(0);opacity:1;transition:all .7s ease-in-out}
+main.ng-enter-active{transform:translateX(0);opacity:1;transition:all .7s ease-in-out}
